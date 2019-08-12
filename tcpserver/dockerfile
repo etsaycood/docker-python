@@ -1,0 +1,4 @@
+FROM python
+COPY . /root/docker-python/tcpserver
+CMD ["python", "/root/docker-python/tcpserver/tcpserver.py"]
+EXPOSE 9999
