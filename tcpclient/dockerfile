@@ -1,0 +1,3 @@
+FROM python
+COPY . /root/docker-python/tcpclient
+CMD ["python", "/root/docker-python/tcpclient/tcpclient.py"]
